@@ -21,4 +21,11 @@ elif Toppings == "3":
   Price = (Price+2.50)
 elif Toppings == "4":
   Price = (Price+3.35)
-print(Price)
+Subtotal = Price
+Tax = (Subtotal*0.13)
+Total = (Subtotal+Tax)
+print("Here is the cost for the pizza.")
+time.sleep(1)
+print(Subtotal)
+time.sleep(0.75)
+print(Total)
