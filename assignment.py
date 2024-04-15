@@ -13,6 +13,8 @@ elif PizzaSize == "XL":
   print("How many toppings?")
   Price = 10
 Toppings = input()
+if Toppings <= "1" and Toppings >= "5":
+  print("We only serve pizzas with 1-4 toppings.")
 if Toppings == "1":
   Price = (Price+1)
 elif Toppings == "2":
