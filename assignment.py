@@ -22,7 +22,7 @@ elif PizzaSize == "L":
     Total = (Subtotal+Tax)
     print("Here is the cost for the pizza.")
     time.sleep(1)
-    print(Subtotal)
+    print("Subtotal $",Subtotal)
     time.sleep(0.75)
     print(Total)
   elif Toppings == 2:
@@ -32,7 +32,7 @@ elif PizzaSize == "L":
     Total = (Subtotal+Tax)
     print("Here is the cost for the pizza.")
     time.sleep(1)
-    print(Subtotal)
+    print("Subtotal $",Subtotal)
     time.sleep(0.75)
     print(Total)
   elif Toppings == 3:
@@ -42,7 +42,7 @@ elif PizzaSize == "L":
     Total = (Subtotal+Tax)
     print("Here is the cost for the pizza.")
     time.sleep(1)
-    print(Subtotal)
+    print("Subtotal $",Subtotal)
     time.sleep(0.75)
     print(Total)
   elif Toppings == 4:
@@ -52,7 +52,7 @@ elif PizzaSize == "L":
     Total = (Subtotal+Tax)
     print("Here is the cost for the pizza.")
     time.sleep(1)
-    print(Subtotal)
+    print("Subtotal $",Subtotal)
     time.sleep(0.75)
     print(Total)
 if PizzaSize == "XL":
@@ -70,7 +70,7 @@ if PizzaSize == "XL":
     Total = (Subtotal+Tax)
     print("Here is the cost for the pizza.")
     time.sleep(1)
-    print(Subtotal)
+    print("Subtotal $",Subtotal)
     time.sleep(0.75)
     print(Total)
   elif Toppings == 2:
@@ -80,7 +80,7 @@ if PizzaSize == "XL":
     Total = (Subtotal+Tax)
     print("Here is the cost for the pizza.")
     time.sleep(1)
-    print(Subtotal)
+    print("Subtotal $",Subtotal)
     time.sleep(0.75)
     print(Total)
   elif Toppings == 3:
@@ -90,7 +90,7 @@ if PizzaSize == "XL":
     Total = (Subtotal+Tax)
     print("Here is the cost for the pizza.")
     time.sleep(1)
-    print(Subtotal)
+    print("Subtotal $",Subtotal)
     time.sleep(0.75)
     print(Total)
   elif Toppings == 4:
@@ -100,6 +100,6 @@ if PizzaSize == "XL":
     Total = (Subtotal+Tax)
     print("Here is the cost for the pizza.")
     time.sleep(1)
-    print(Subtotal)
+    print("Subtotal $",Subtotal)
     time.sleep(0.75)
     print(Total)
