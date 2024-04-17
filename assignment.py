@@ -1,5 +1,5 @@
 import time
-
+time.sleep(0.5)
 print("Welcome to Joseph Manuel Davuis' Pizza Parlor!")
 time.sleep(1)
 print("What pizza size would you like, we serve L or XL")
@@ -8,6 +8,7 @@ Price = 0
 if PizzaSize != "L" and PizzaSize != "XL":
   print("Sorry, we only sell L or XL.")
 elif PizzaSize == "L":
+  time.sleep(1)
   print("How many toppings?")
   Price = 6
   Toppings = int(input())
@@ -24,7 +25,7 @@ elif PizzaSize == "L":
     time.sleep(1)
     print("Subtotal $",Subtotal)
     time.sleep(0.75)
-    print(Total)
+    print("Total $" ,Total)
   elif Toppings == 2:
     Price = (Price+1.75)
     Subtotal = Price
@@ -34,7 +35,7 @@ elif PizzaSize == "L":
     time.sleep(1)
     print("Subtotal $",Subtotal)
     time.sleep(0.75)
-    print(Total)
+    print("Total $" ,Total)
   elif Toppings == 3:
     Price = (Price+2.50)
     Subtotal = Price
@@ -44,7 +45,7 @@ elif PizzaSize == "L":
     time.sleep(1)
     print("Subtotal $",Subtotal)
     time.sleep(0.75)
-    print(Total)
+    print("Total $" ,Total)
   elif Toppings == 4:
     Price = (Price+3.35)
     Subtotal = Price
@@ -54,8 +55,9 @@ elif PizzaSize == "L":
     time.sleep(1)
     print("Subtotal $",Subtotal)
     time.sleep(0.75)
-    print(Total)
+    print("Total $" ,Total)
 if PizzaSize == "XL":
+  time.sleep(1)
   print("How many toppings?")
   Price = 10
   Toppings = int(input())
@@ -72,7 +74,7 @@ if PizzaSize == "XL":
     time.sleep(1)
     print("Subtotal $",Subtotal)
     time.sleep(0.75)
-    print(Total)
+    print("Total $" ,Total)
   elif Toppings == 2:
     Price = (Price+1.75)
     Subtotal = Price
@@ -82,7 +84,7 @@ if PizzaSize == "XL":
     time.sleep(1)
     print("Subtotal $",Subtotal)
     time.sleep(0.75)
-    print(Total)
+    print("Total $" ,Total)
   elif Toppings == 3:
     Price = (Price+2.50)
     Subtotal = Price
@@ -92,7 +94,7 @@ if PizzaSize == "XL":
     time.sleep(1)
     print("Subtotal $",Subtotal)
     time.sleep(0.75)
-    print(Total)
+    print("Total $" ,Total)
   elif Toppings == 4:
     Price = (Price+3.35)
     Subtotal = Price
@@ -102,4 +104,4 @@ if PizzaSize == "XL":
     time.sleep(1)
     print("Subtotal $",Subtotal)
     time.sleep(0.75)
-    print(Total)
+    print("Total $" ,Total)
